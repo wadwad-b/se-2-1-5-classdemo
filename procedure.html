@@ -52,60 +52,60 @@
             </nav>
         </header>
 
-        <!-- About the Team -->
-        <section class="authors">
+        <!-- How to use the sensor -->
+        <section class="procedure">
             <div class="container">
                 <br>
-                <h1 class="text-center about-team">About the Team</h1>
+                <div class="text-center">
+                    <h1>Procedure</h1>
+                    <h2>Using a numbered list, describe your procedure (including pictures)</h2>
+                </div>
+
                 <hr><br>
 
-                <!-- Cards organized in a 2 x 2 table format -->
-                <div class="row row-cols-1 row-cols-md-2 g-4">
-                    <div class="col">
-                        <div class="card about">
-                            <img src="img/woman1.jpg" alt="Name 1" class="card-img-top">
-                            <div class="card-body">
-                                <h4 class="card-title">Student Name</h4>
-                                <h5>Class: BME</h5>
-                                <p class="card-text">Describe (in detail) the contributions that this team member made
-                                    to the project.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card about">
-                            <img src="img/man1.png" alt="Name 2" class="card-img-top">
-                            <div class="card-body">
-                                <h4 class="card-title">Student Name</h4>
-                                <h5>Class: SE</h5>
-                                <p class="card-text">Describe (in detail) the contributions that this team member made
-                                    to the project.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card about">
-                            <img src="img/man2.jpg" alt="Name 3" class="card-img-top">
-                            <div class="card-body">
-                                <h4 class="card-title">Student Name</h4>
-                                <h5>Class: CEA</h5>
-                                <p class="card-text">Describe (in detail) the contributions that this team member made
-                                    to the project.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card about">
-                            <img src="img/woman2.jpg" alt="Name 1" class="card-img-top">
-                            <div class="card-body">
-                                <h4 class="card-title">Student Name</h4>
-                                <h5>Class: DE</h5>
-                                <p class="card-text">Describe (in detail) the contributions that this team member made
-                                    to the project.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <table class="table table-hover text-center table-light table-bordered border-dark-subtle">
+                    <thead>
+                        <tr class="table-primary">
+                            <th><h3>Step</h3></th>
+                            <th><h3>Description</h3></th>
+                            <th><h3>Image</h3></th>
+                        </tr>
+                    </thead>
+                    <tbody class="table-group-divider">
+                        <!-- Row 1 -->
+                        <tr class="align-middle">
+                            <th scope="row" class="table-secondary"><h3>1</h3></th>
+                            <td><h3 class="howTo">Start Python Flask Server</h3></td>
+                            <td><img src="img/python-logo.png" alt="Python Logo"></td>
+                        </tr>
+                        <!-- Row 2 -->
+                        <tr class="align-middle">
+                            <th scope="row" class="table-secondary"><h3>2</h3></th>
+                            <td><h3 class="howTo">Power circuit on. SR-04/05 transmits data on Nano IoT</h3></td>
+                            <td><img src="img/range-finder-tp.png" alt="SR04 Range Finder"></td>
+                        </tr>
+                        <!-- Row 3 -->
+                        <tr class="align-middle">
+                            <th scope="row" class="table-secondary"><h3>3</h3></th>
+                            <td><h3 class="howTo">Nano IoT connects to PC via WiF and sends data to Arduino program</h3></td>
+                            <td><img src="img/nano33-iot3.png" alt="Nano 33 IoT"></td>
+                        </tr>
+                        <!-- Row 4 -->
+                        <tr class="align-middle">
+                            <th scope="row" class="table-secondary"><h3>4</h3></th>
+                            <td><h3 class="howTo">Arduino and Flask server communicate via HTTP request protocol</h3></td>
+                            <td><img src="img/arduino-logo.png" alt="Arduino Logo"></td>
+                        </tr>
+                        <!-- Row 5 -->
+                        <tr class="align-middle">
+                            <th scope="row" class="table-secondary"><h3>5</h3></th>
+                            <td><h3 class="howTo">Flask connects to Firebase</h3></td>
+                            <td><img src="img/firebase-logo.png" alt="Firebase Logo"></td>
+                        </tr>
+                    </tbody>
+
+                </table>
+                    
             </div>
         </section>
 
